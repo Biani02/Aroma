@@ -78,4 +78,4 @@ REQUISITOS MINIMOS PARA EJECUCION DEL PROYECTO
     °Composer: v 2.8.10
     °Servidor web: Apache 
     °Base de datos: MySQL
-    °Herramientas recomendadas: XAMPP
+    °Servidor: XAMPP
