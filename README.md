@@ -39,7 +39,12 @@ Rol Clientes
 
 NIVELES DE USUARIO | ROL
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 CRUD DE USUARIOS 
+<img width="2878" height="1582" alt="image" src="https://github.com/user-attachments/assets/aad3f97a-0451-46d7-96d6-d74450cf0dcc" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CRUD DE PRODUCTOS
 <img width="2871" height="1586" alt="image" src="https://github.com/user-attachments/assets/c6a33428-1707-4a62-93a2-6b747d1ae8db" />
@@ -80,23 +85,49 @@ OTROS:
  CARRITO DE COMPRAS DEL CLIENTE
  
  REGISTRO DE NUEVOS CLIENTES
+<img width="2865" height="1572" alt="image" src="https://github.com/user-attachments/assets/72a0c32a-83b7-41bc-a984-fd80a52e26a9" />
+
+<img width="2871" height="1578" alt="image" src="https://github.com/user-attachments/assets/88713864-b861-47b6-855a-2c2402c2acb8" />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # APIS LARAVEL 
 
-API DE PRODUCTOS
+API.php (Consumo en Laravel)
+<img width="1672" height="1079" alt="image" src="https://github.com/user-attachments/assets/5a839d2f-56a2-45a5-95e7-5da7722d721b" />
+
+<img width="1596" height="879" alt="image" src="https://github.com/user-attachments/assets/e670d144-74f8-4f92-aa6a-998238971dae" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Producto.Controller (Consumo en Laravel)
+<img width="1335" height="1450" alt="image" src="https://github.com/user-attachments/assets/08f4282c-4783-4d7e-b670-3170245d4053" />
+
+<img width="1288" height="1164" alt="image" src="https://github.com/user-attachments/assets/fd3601e3-1bad-4d12-ac55-5bb17d783701" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User.Controller (Consumo en Laravel)
+<img width="1515" height="1379" alt="image" src="https://github.com/user-attachments/assets/a35a1874-51fe-49b3-bc9e-cd679371689a" />
+
+<img width="1593" height="1185" alt="image" src="https://github.com/user-attachments/assets/849d0ff8-ec43-4a49-8d5b-87566cd48b44" />
+
+<img width="1630" height="671" alt="image" src="https://github.com/user-attachments/assets/06ce7743-b9d9-4597-bc07-1115ad05ea77" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+API DE PRODUCTOS (Consumo en Angular)
 <img width="1532" height="386" alt="image" src="https://github.com/user-attachments/assets/ffcbf7d7-872a-4bfd-8fae-5c65a9ae269e" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-API DE USUARIOS
+API DE USUARIOS (Consumo en Angular)
 <img width="977" height="263" alt="image" src="https://github.com/user-attachments/assets/4a21bb99-58fa-4a5b-8840-fd6abf5a1d86" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-API DE CARRITO
+API DE CARRITO (Consumo en Angular)
 
-API DE ORDEN 
+API DE ORDEN (Consumo en Angular)
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # DEPENDENCIAS Y CONFIGURACION 
 
 REQUISITOS MINIMOS PARA EJECUCION DEL PROYECTO
