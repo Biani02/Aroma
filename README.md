@@ -78,86 +78,124 @@ Rol Cliente: El rol cliente tiene permisos para crear su propia cuenta desde el 
 
 CRUD DE USUARIOS
 
-
+En el CRUD de Usuarios el rol administrador tiene permisos para agregar a un empleado, editar sus datos y eliminar un empleado, presenta un componente de busqueda, ya sea por nombre o por correo, asi como una paginacion para un mejor control del listado de usuarios
 <img width="2876" height="1580" alt="image" src="https://github.com/user-attachments/assets/639f380d-d894-4a8c-90c4-74462d803893" />
+
+El rol cliente, solo tiene permisos para visualizar mas informacion del producto y agregar productos al carrito de compra
+<img width="2879" height="1517" alt="image" src="https://github.com/user-attachments/assets/034dfe61-5c1f-4163-8528-3496db79ffef" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CRUD DE PRODUCTOS
+
+En el CRUD de Productos el rol administrador y empleado tienen permisos para agregar un producto, editar sus datos y eliminar un producto, presenta un componente de busqueda, ya sea por nombre o por descripcion, asi como una paginacion para un mejor control del listado de los productos y un filtro por categoria de los perfumes (hiño, hombre y mujer)
 <img width="2871" height="1586" alt="image" src="https://github.com/user-attachments/assets/c6a33428-1707-4a62-93a2-6b747d1ae8db" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 VENTA DE PERFUMES
+
+Se agregan productos al carrito de compra 
 <img width="2876" height="1577" alt="image" src="https://github.com/user-attachments/assets/5cc130fb-3994-4b7b-bf9b-0c672418aa59" />
 
+SE finaliza la compra y se le pide al usuario que agregue la direccion de envio y el metodo de pago
 <img width="2879" height="1573" alt="image" src="https://github.com/user-attachments/assets/a4a9fbff-7c69-48aa-912a-551812a6c3dc" />
 
+Despues de finalizar la compra, el carrito de compras se vacia y se reduce el stock de los productos comprados y se le manda un mensaje al usuario indicandole que la compra ha sido realizada con exito
 <img width="2878" height="1583" alt="image" src="https://github.com/user-attachments/assets/50de00e9-67cc-4937-b4ee-7d6cf299edb8" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OTROS:
 
- AGREGAR PRODUCTO
+AGREGAR PRODUCTO
+
+Para agregar un producto, se le tiene que dar click en el boton "Agregar producto" y este les desglosara un modal, en donde tienen que agregar los datos del producto, que son: URL de la imagen, nombre, precio, categoria, stock y marca
+
  <img width="2879" height="1580" alt="Captura de pantalla 2025-07-28 212300" src="https://github.com/user-attachments/assets/9ec427c4-7927-476c-8024-0d857631ac4e" />
 
+Una vez agregado el producto, se muestra al inicio de la tabla
  <img width="2856" height="539" alt="image" src="https://github.com/user-attachments/assets/83444110-62c8-4f23-be53-791ce890c239" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  EDITAR DATOS DE PRODUCTO
-<img width="2875" height="1577" alt="image" src="https://github.com/user-attachments/assets/770d7f43-eaf8-4eea-84bb-7263e497831d" />
+
+Para editar datos un producto, se le tiene que dar click en el boton de accion "Editar" y este les desglosara un modal, en donde se muestran toda la informacion del producto para que se pueda editar el campo que se desee
  
+<img width="2875" height="1577" alt="image" src="https://github.com/user-attachments/assets/770d7f43-eaf8-4eea-84bb-7263e497831d" />
+
+ Una vez guardados los cambios, se actualizan y se muestra en la tabla el producto con los datos editados
  <img width="2854" height="552" alt="image" src="https://github.com/user-attachments/assets/a27a2ec6-c342-489c-8940-a25f2b7dc0e4" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  VISUALIZAR DATOS DE PRODUCTO
+
+ Para visualizar mas detalles del producto, se le tiene que dar click en el boton de accion "Ver detalles" y este les desglosara una ventana emergente en donde se visualiza mas detalles del producto
  <img width="2874" height="1578" alt="image" src="https://github.com/user-attachments/assets/b48224f3-9b3b-46eb-9a44-10b2fc661089" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  BUSQUEDA DE PRODUCTO
+
+ Para buscar un producto en especifico, en el componente de busqueda, se especifica ya sea por nombre o descripcion del produucto que se quiere buscar y en la tabla solo se mostrara el producto con resultados de la bsuqueda coincidentes
  <img width="2878" height="927" alt="image" src="https://github.com/user-attachments/assets/08b195a6-e908-4502-a6af-ee4f2b5d8400" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  ELIMINAR PRODUCTO
+
+Para eiminar un producto, se le tiene que dar click en el boton de accion "Eliminar" y este les desglosara una ventana emergente para confirmar la eliminacion del producto o cancelar
  <img width="2867" height="1571" alt="image" src="https://github.com/user-attachments/assets/74b69f42-35bd-486e-91e6-1fb8bbc07229" />
 
+Una vez confirmada la eliminacion del producto, se le muestra al usuario una barra de emergencia indicandole que el producto ha siedo eliminado con exito
 <img width="2879" height="1585" alt="image" src="https://github.com/user-attachments/assets/8ff0c632-4956-45a9-9bc3-ba153290be70" />
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  CARRITO DE COMPRAS DEL CLIENTE
+
+ El rol cliente, puede agregar los productos que desee al carrito de compras, seleccionar la cantidad que desea comprar del producto o eliminar o vaciar completamente el producto, asi como tambien se le muestra el total de su compra y si quiere finalizar su compra
  <img width="2872" height="1583" alt="image" src="https://github.com/user-attachments/assets/3722c944-7ea8-4e63-824d-c61b9cb37018" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  REGISTRO DE NUEVOS CLIENTES
+
+ Para que un cliente se pueda registrar, se necesita rellenar el formulario en el login para registrarse
 <img width="2865" height="1572" alt="image" src="https://github.com/user-attachments/assets/72a0c32a-83b7-41bc-a984-fd80a52e26a9" />
 
+Una vez registrado, lo redirecciona al login para que pueda ingresar su correo y contraseña registrado previamente
 <img width="2871" height="1578" alt="image" src="https://github.com/user-attachments/assets/88713864-b861-47b6-855a-2c2402c2acb8" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  REGISTRO DE NUEVOS EMPLEADOS
 
+ Para registrar a un nuevo empleado, en el CRUD se visualiza un formulario para ingresar los datos del cliente a registrar
 <img width="2879" height="1570" alt="image" src="https://github.com/user-attachments/assets/0d748ee2-2e88-4ddd-a226-e1aafd4b1597" />
 
+Una vez registrado el empleado, se le muestra al administrador una barra de emergencia de que el empeleado se agrego correctamente
 <img width="797" height="199" alt="image" src="https://github.com/user-attachments/assets/433f4ef5-b5cc-4bd8-8b70-0f0f3ac6d9f3" />
 
+Se visualiza hasta el final del listado de la tabla, el empleado registrado
 <img width="2879" height="1576" alt="image" src="https://github.com/user-attachments/assets/c03eaf10-7605-4823-9bca-a425c0fc4d3c" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 EDITAR DATOS DE EMPLEADOS
+
+Para editar datos de un empleado, se le tiene que dar click en el boton de accion "Editar" y se edita el campo que se desee
 <img width="2772" height="176" alt="image" src="https://github.com/user-attachments/assets/63343490-08c8-4c9f-b109-f0fc6660ce4f" />
 
+Una vez terminado de editar los datos, se guardan los cambios con el boton de guardar y se visualizan en la tabla los cambios
 <img width="2875" height="1580" alt="image" src="https://github.com/user-attachments/assets/1cd2fe39-f761-4f5e-9113-d37fbac05836" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ELIMINAR EMPLEADO
 
+Para eliminar un empleado, se le tiene que dar click en el boton de accion "Eliminar" y este les mostrara una ventana emergente para confirmar la eliminacion del empleado
 <img width="2874" height="1578" alt="image" src="https://github.com/user-attachments/assets/eb43e3f5-37eb-40c5-acb5-e514648758b4" />
 
+Una vez confirmada la eliminacion del empleado, se le muestra al usuario una barra de emergencia indicandole que el empleado ha sido eliminado con exito
 <img width="749" height="155" alt="image" src="https://github.com/user-attachments/assets/1cb4b849-f7d1-4a42-aac2-41e25d2f4c7f" />
 
+Se elimina de la tabla el empleado que se ha eliminado anteriormente
 <img width="2877" height="1578" alt="image" src="https://github.com/user-attachments/assets/b6e4d87b-f98b-4640-89c5-6db517744818" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
