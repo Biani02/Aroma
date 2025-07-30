@@ -15,7 +15,7 @@ NUMERO DE EQUIPO: 10
 GRUPO: VSI
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-¿QUÉ HACE EL SISTEMA? El sistema de punto de venta para la perfumería "AROMA" permite gestionar productos y usuarios según su rol; los administradores y empleados pueden agregar, editar, eliminar y visualizar productos, mientras que los clientes pueden consultar información de los productos y agregarlos al carrito de compras. Además, los administradores pueden visualizar datos de los usuarios registrados. El sistema incluye filtrado por categoría, búsqueda, paginación y muestra opciones específicas en función del rol del usuario.
+¿QUÉ HACE EL SISTEMA? El sistema de punto de venta para la perfumería "AROMA" permite gestionar productos y usuarios según su rol; los administradores y empleados pueden agregar, editar, eliminar y visualizar productos, mientras que los clientes pueden consultar información de los productos y agregarlos al carrito de compras. Además, los administradores pueden visualizar datos de los usuarios registrados. El sistema incluye filtrado por categoría, búsqueda, paginación y muestra opciones específicas en función del rol del usuario. Asi como tambien, realiza el proceso de una compra para el cliente y reduce el stock en cada compra
 
 
 TIPO DE SISTEMA: Sistema web 
@@ -26,23 +26,53 @@ TIPO DE SISTEMA: Sistema web
 PROCESO DE LOGUEO
 
 Rol Administrador
-<img width="2874" height="1584" alt="Captura de pantalla 2025-07-28 211512" src="https://github.com/user-attachments/assets/1fa998c6-1c92-4962-9a8f-f0b4d8e49944" />
+<img width="2876" height="1589" alt="image" src="https://github.com/user-attachments/assets/0879b98e-ec05-4be4-9f7a-c9f43898a53f" />
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Rol Empleado
-<img width="2874" height="1588" alt="image" src="https://github.com/user-attachments/assets/affc2485-be44-4b13-80eb-3b8c7d6ad4c5" />
+<img width="2870" height="1578" alt="image" src="https://github.com/user-attachments/assets/6d673a2b-059f-447b-a261-f1c3e541e59b" />
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Rol Clientes
-<img width="2877" height="1575" alt="image" src="https://github.com/user-attachments/assets/34ff2a9e-e635-4cfa-acdd-858ef9ce5966" />
+<img width="2869" height="1565" alt="image" src="https://github.com/user-attachments/assets/78cd659b-fc26-44c9-a044-c8e7c28cbe63" />
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 NIVELES DE USUARIO | ROL
 
+ Rol Administrador: El rol administrador tiene permisos de agregar un producto, editar datos o eliminar un producto y ver detalles del producto, asi como tambien, ver todos los empleados que estan registrados en el sistema y poder agregar un empleado, editar datos de un empleado o eliminar a un empleado y solamente puede ver datos de su perfil pero no tiene permisos paa editarlos.
+ 
+ <img width="2875" height="1577" alt="image" src="https://github.com/user-attachments/assets/b29e88c0-49f9-4d99-9d42-1a38f93dc2f8" />
+
+ <img width="2872" height="1574" alt="image" src="https://github.com/user-attachments/assets/d6ea766e-bbe6-4b4d-8575-82b547c538ac" />
+
+<img width="2875" height="1575" alt="image" src="https://github.com/user-attachments/assets/e778a664-5c83-45da-9d3e-dfdf9f72bc1e" />
+
+
+Rol Empleado: El rol empleado solo tiene permisos de agregar un producto, editar datos o eliminar un producto y ver detalles del producto
+
+<img width="2878" height="1578" alt="image" src="https://github.com/user-attachments/assets/4cff3081-ded9-454b-91a5-32cf6d058a87" />
+
+Rol Cliente: El rol cliente tiene permisos para crear su propia cuenta desde el login, pero solo puede ver detalles del producto y agregar productos al carrito de compras y hacer su compra, en su perfil de usuario tiene permisos de editar sus datos y de eliminar su cuenta.
+
+<img width="2865" height="1572" alt="image" src="https://github.com/user-attachments/assets/72a0c32a-83b7-41bc-a984-fd80a52e26a9" />
+
+<img width="2871" height="1578" alt="image" src="https://github.com/user-attachments/assets/88713864-b861-47b6-855a-2c2402c2acb8" />
+
+<img width="2858" height="1549" alt="image" src="https://github.com/user-attachments/assets/fd34d9ac-fde7-4fc4-a94e-9d2d8a242040" />
+
+<img width="2870" height="1573" alt="image" src="https://github.com/user-attachments/assets/035d974a-1051-4261-8b64-7b44f9f4b514" />
+
+<img width="2876" height="1571" alt="image" src="https://github.com/user-attachments/assets/2605a51f-35ef-4b05-a924-2b9e0bd74ce3" />
+
+<img width="2879" height="1578" alt="image" src="https://github.com/user-attachments/assets/c5712dd0-0dab-4f74-bcf2-53253865b4b7" />
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CRUD DE USUARIOS 
-<img width="2878" height="1582" alt="image" src="https://github.com/user-attachments/assets/aad3f97a-0451-46d7-96d6-d74450cf0dcc" />
+<img width="2876" height="1580" alt="image" src="https://github.com/user-attachments/assets/639f380d-d894-4a8c-90c4-74462d803893" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,8 +81,11 @@ CRUD DE PRODUCTOS
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 VENTA DE PERFUMES
+<img width="2876" height="1577" alt="image" src="https://github.com/user-attachments/assets/5cc130fb-3994-4b7b-bf9b-0c672418aa59" />
 
-CORREO ELECTRONICO
+<img width="2879" height="1573" alt="image" src="https://github.com/user-attachments/assets/a4a9fbff-7c69-48aa-912a-551812a6c3dc" />
+
+<img width="2878" height="1583" alt="image" src="https://github.com/user-attachments/assets/50de00e9-67cc-4937-b4ee-7d6cf299edb8" />
 
 OTROS:
 
@@ -83,13 +116,43 @@ OTROS:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  CARRITO DE COMPRAS DEL CLIENTE
- 
+ <img width="2872" height="1583" alt="image" src="https://github.com/user-attachments/assets/3722c944-7ea8-4e63-824d-c61b9cb37018" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  REGISTRO DE NUEVOS CLIENTES
 <img width="2865" height="1572" alt="image" src="https://github.com/user-attachments/assets/72a0c32a-83b7-41bc-a984-fd80a52e26a9" />
 
 <img width="2871" height="1578" alt="image" src="https://github.com/user-attachments/assets/88713864-b861-47b6-855a-2c2402c2acb8" />
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ REGISTRO DE NUEVOS EMPLEADOS
+
+<img width="2879" height="1570" alt="image" src="https://github.com/user-attachments/assets/0d748ee2-2e88-4ddd-a226-e1aafd4b1597" />
+
+<img width="797" height="199" alt="image" src="https://github.com/user-attachments/assets/433f4ef5-b5cc-4bd8-8b70-0f0f3ac6d9f3" />
+
+<img width="2879" height="1576" alt="image" src="https://github.com/user-attachments/assets/c03eaf10-7605-4823-9bca-a425c0fc4d3c" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EDITAR DATOS DE EMPLEADOS
+<img width="2772" height="176" alt="image" src="https://github.com/user-attachments/assets/63343490-08c8-4c9f-b109-f0fc6660ce4f" />
+
+<img width="2875" height="1580" alt="image" src="https://github.com/user-attachments/assets/1cd2fe39-f761-4f5e-9113-d37fbac05836" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ELIMINAR EMPLEADO
+
+<img width="2874" height="1578" alt="image" src="https://github.com/user-attachments/assets/eb43e3f5-37eb-40c5-acb5-e514648758b4" />
+
+<img width="749" height="155" alt="image" src="https://github.com/user-attachments/assets/1cb4b849-f7d1-4a42-aac2-41e25d2f4c7f" />
+
+<img width="2877" height="1578" alt="image" src="https://github.com/user-attachments/assets/b6e4d87b-f98b-4640-89c5-6db517744818" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # APIS LARAVEL 
 
 API.php (Consumo en Laravel)
@@ -124,8 +187,12 @@ API DE USUARIOS (Consumo en Angular)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 API DE CARRITO (Consumo en Angular)
+<img width="1456" height="376" alt="image" src="https://github.com/user-attachments/assets/5edbe910-df45-4ab4-ad88-a8b2800e6d72" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 API DE ORDEN (Consumo en Angular)
+<img width="1376" height="274" alt="image" src="https://github.com/user-attachments/assets/fc49591a-a239-48e4-a5bf-5c3a4466da99" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # DEPENDENCIAS Y CONFIGURACION 
