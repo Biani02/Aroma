@@ -25,17 +25,17 @@ TIPO DE SISTEMA: Sistema web
 
 PROCESO DE LOGUEO
 
-Rol Administrador
+Rol Administrador: Para entrar al sistema, es necesario que el administrador entre con su correo y contraseña validos
 <img width="2876" height="1589" alt="image" src="https://github.com/user-attachments/assets/0879b98e-ec05-4be4-9f7a-c9f43898a53f" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Rol Empleado
+Rol Empleado: Para entrar al sistema, es necesario que el empleado entre con su correo y contraseña validos
 <img width="2870" height="1578" alt="image" src="https://github.com/user-attachments/assets/6d673a2b-059f-447b-a261-f1c3e541e59b" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Rol Clientes
+Rol Clientes: Para entrar al sistema, es necesario que el cliente entre con su correo y contraseña validos
 <img width="2869" height="1565" alt="image" src="https://github.com/user-attachments/assets/78cd659b-fc26-44c9-a044-c8e7c28cbe63" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ NIVELES DE USUARIO | ROL
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Rol Empleado: El rol empleado solo tiene permisos de agregar un producto, editar datos o eliminar un producto y ver detalles del producto
+Rol Empleado: El rol empleado solo tiene permisos de agregar un producto, editar datos o eliminar un producto y ver detalles del producto y solamente puede ver datos de su perfil pero no tiene permisos paa editarlos.
 
 <img width="2878" height="1578" alt="image" src="https://github.com/user-attachments/assets/4cff3081-ded9-454b-91a5-32cf6d058a87" />
 
@@ -76,7 +76,9 @@ Rol Cliente: El rol cliente tiene permisos para crear su propia cuenta desde el 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-CRUD DE USUARIOS 
+CRUD DE USUARIOS
+
+
 <img width="2876" height="1580" alt="image" src="https://github.com/user-attachments/assets/639f380d-d894-4a8c-90c4-74462d803893" />
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
