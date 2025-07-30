@@ -50,10 +50,15 @@ NIVELES DE USUARIO | ROL
 
 <img width="2875" height="1575" alt="image" src="https://github.com/user-attachments/assets/e778a664-5c83-45da-9d3e-dfdf9f72bc1e" />
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Rol Empleado: El rol empleado solo tiene permisos de agregar un producto, editar datos o eliminar un producto y ver detalles del producto
 
 <img width="2878" height="1578" alt="image" src="https://github.com/user-attachments/assets/4cff3081-ded9-454b-91a5-32cf6d058a87" />
+
+<img width="2879" height="1578" alt="image" src="https://github.com/user-attachments/assets/420dd32f-1eb9-4463-85aa-2579e26ff6c9" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Rol Cliente: El rol cliente tiene permisos para crear su propia cuenta desde el login, pero solo puede ver detalles del producto y agregar productos al carrito de compras y hacer su compra, en su perfil de usuario tiene permisos de editar sus datos y de eliminar su cuenta.
 
@@ -87,6 +92,7 @@ VENTA DE PERFUMES
 
 <img width="2878" height="1583" alt="image" src="https://github.com/user-attachments/assets/50de00e9-67cc-4937-b4ee-7d6cf299edb8" />
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OTROS:
 
  AGREGAR PRODUCTO
